@@ -1,0 +1,1373 @@
+{
+    "manifest_version": "1.0.19",
+    "title": "Propus",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general",
+                    "exclude\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general",
+                    "exclude\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio  Grid",
+            "screenshot": "screenshots\/portfolio-grid.jpg",
+            "source": "templates\/portfolio-grid.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/portfolio-grid\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Project",
+            "screenshot": "screenshots\/project.jpg",
+            "source": "templates\/project.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog Grid",
+            "screenshot": "screenshots\/blog-grid.png",
+            "source": "templates\/blog-grid.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/?elementor_library=blog-grid",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog Post",
+            "screenshot": "screenshots\/blog-post.png",
+            "source": "templates\/blog-post.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/?elementor_library=blog-post",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contacts",
+            "screenshot": "screenshots\/contacts.jpg",
+            "source": "templates\/contacts.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/contacts\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Error Page",
+            "screenshot": "screenshots\/error-page.png",
+            "source": "templates\/error-page.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/?elementor_library=error-page",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Hero",
+            "screenshot": "screenshots\/block-hero.jpg",
+            "source": "templates\/block-hero.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-hero\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Contacts",
+            "screenshot": "screenshots\/block-contacts.jpg",
+            "source": "templates\/block-contacts.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-contacts-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Testimonials",
+            "screenshot": "screenshots\/block-testimonials.jpg",
+            "source": "templates\/block-testimonials.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-testimonials\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Portfolio List",
+            "screenshot": "screenshots\/block-portfolio-list.jpg",
+            "source": "templates\/block-portfolio-list.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-portfolio-list\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: About Project",
+            "screenshot": "screenshots\/block-about-project.jpg",
+            "source": "templates\/block-about-project.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-about-project\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Portfolio Gallery",
+            "screenshot": "screenshots\/block-portfolio-gallery.jpg",
+            "source": "templates\/block-portfolio-gallery.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-portfolio-gallery\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Intro",
+            "screenshot": "screenshots\/block-intro.jpg",
+            "source": "templates\/block-intro.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-intro\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Map",
+            "screenshot": "screenshots\/block-map.jpg",
+            "source": "templates\/block-map.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-map\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-map",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Contacts",
+            "screenshot": "screenshots\/block-contacts.jpg",
+            "source": "templates\/block-contacts.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-contacts\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Counters",
+            "screenshot": "screenshots\/block-counters.jpg",
+            "source": "templates\/block-counters.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-counters\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Resume",
+            "screenshot": "screenshots\/block-resume.jpg",
+            "source": "templates\/block-resume.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-resume\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: About",
+            "screenshot": "screenshots\/block-about.jpg",
+            "source": "templates\/block-about.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-about-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Skills",
+            "screenshot": "screenshots\/block-skills.jpg",
+            "source": "templates\/block-skills.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-skills\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Services",
+            "screenshot": "screenshots\/block-services.jpg",
+            "source": "templates\/block-services.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-services-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: About",
+            "screenshot": "screenshots\/block-about.jpg",
+            "source": "templates\/block-about.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-about\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Services",
+            "screenshot": "screenshots\/block-services.jpg",
+            "source": "templates\/block-services.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-services\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Gallery",
+            "screenshot": "screenshots\/block-gallery.jpg",
+            "source": "templates\/block-gallery.json",
+            "preview_url": "https:\/\/propus-elementor.nelly-k.com\/template-kit\/block-gallery\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.1.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.1.1",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Google Map Extended",
+            "version": "1.2.1",
+            "file": "extended-google-map-for-elementor\/elementor-google-map-extended.php",
+            "author": "InternetCSS"
+        }
+    ],
+    "images": [
+        {
+            "filename": "square.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/square-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-hero.json",
+                    "name": "Block: Hero"
+                }
+            ],
+            "filesize": 17289,
+            "dimensions": [
+                863,
+                863
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/square.png"
+        },
+        {
+            "filename": "circle-shadow.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/circle-shadow.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-hero.json",
+                    "name": "Block: Hero"
+                }
+            ],
+            "filesize": 14632,
+            "dimensions": [
+                770,
+                770
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/circle-shadow.png"
+        },
+        {
+            "filename": "square-2.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/square-2-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-hero.json",
+                    "name": "Block: Hero"
+                }
+            ],
+            "filesize": 14481,
+            "dimensions": [
+                863,
+                863
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/square-2.png"
+        },
+        {
+            "filename": "triangle.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/triangle.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-hero.json",
+                    "name": "Block: Hero"
+                }
+            ],
+            "filesize": 11021,
+            "dimensions": [
+                721,
+                565
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/triangle.png"
+        },
+        {
+            "filename": "graphic-design.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/graphic-design.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                }
+            ],
+            "filesize": 11025,
+            "dimensions": [
+                464,
+                391
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/web-development-line-design-banners-25X626K"
+        },
+        {
+            "filename": "web-design.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/web-design.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                }
+            ],
+            "filesize": 8390,
+            "dimensions": [
+                448,
+                349
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/web-development-line-design-banners-25X626K"
+        },
+        {
+            "filename": "product-design.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/product-design.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                }
+            ],
+            "filesize": 8871,
+            "dimensions": [
+                440,
+                373
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/web-development-line-design-banners-25X626K"
+        },
+        {
+            "filename": "Portfolio-01.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-01-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-gallery.json",
+                    "name": "Block: Gallery"
+                }
+            ],
+            "filesize": 50309,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-R5Z2A2H"
+        },
+        {
+            "filename": "Portfolio-06.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-06-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-portfolio-list.json",
+                    "name": "Block: Portfolio List"
+                },
+                {
+                    "source": "templates\/block-gallery.json",
+                    "name": "Block: Gallery"
+                }
+            ],
+            "filesize": 44914,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-CTKYR9G"
+        },
+        {
+            "filename": "Portfolio-04.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-04-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-portfolio-list.json",
+                    "name": "Block: Portfolio List"
+                },
+                {
+                    "source": "templates\/block-gallery.json",
+                    "name": "Block: Gallery"
+                }
+            ],
+            "filesize": 37010,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-56YQ855"
+        },
+        {
+            "filename": "Portfolio-03.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-03-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-portfolio-list.json",
+                    "name": "Block: Portfolio List"
+                }
+            ],
+            "filesize": 51862,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-5M5BWAC"
+        },
+        {
+            "filename": "Portfolio-02.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-02-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-portfolio-list.json",
+                    "name": "Block: Portfolio List"
+                }
+            ],
+            "filesize": 34639,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-LCC2N6Y"
+        },
+        {
+            "filename": "Portfolio-05.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-05-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 51445,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-LZJ5UBR"
+        },
+        {
+            "filename": "face-of-businessman-7T2SR3U.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/face-of-businessman-7T2SR3U.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-testimonials.json",
+                    "name": "Block: Testimonials"
+                }
+            ],
+            "filesize": 39413,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7T2SR3U"
+        },
+        {
+            "filename": "authentic-womens-portrait-PLYMW2F.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/authentic-womens-portrait-PLYMW2F.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-testimonials.json",
+                    "name": "Block: Testimonials"
+                }
+            ],
+            "filesize": 58915,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PLYMW2F"
+        },
+        {
+            "filename": "man-face-covered-with-bright-sun-light-in-forest-NHZKMQ6.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/man-face-covered-with-bright-sun-light-in-forest-NHZKMQ6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-testimonials.json",
+                    "name": "Block: Testimonials"
+                }
+            ],
+            "filesize": 46144,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-NHZKMQ6"
+        },
+        {
+            "filename": "face-of-businesswoman-M3HLN79.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/face-of-businesswoman-M3HLN79.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/block-about.json",
+                    "name": "Block: About"
+                }
+            ],
+            "filesize": 97029,
+            "dimensions": [
+                600,
+                887
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-M3HLN79"
+        },
+        {
+            "filename": "rocket-K2PVHY9.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/rocket-K2PVHY9.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/block-counters.json",
+                    "name": "Block: Counters"
+                }
+            ],
+            "filesize": 3051,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-icons-line-K2PVHY9"
+        },
+        {
+            "filename": "business-man-K2PVHY9.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/business-man-K2PVHY9.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/block-counters.json",
+                    "name": "Block: Counters"
+                }
+            ],
+            "filesize": 3674,
+            "dimensions": [
+                216,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-icons-line-K2PVHY9"
+        },
+        {
+            "filename": "herbal-tea-52KFJ3Q.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/herbal-tea-52KFJ3Q-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/block-counters.json",
+                    "name": "Block: Counters"
+                }
+            ],
+            "filesize": 37153,
+            "dimensions": [
+                2048,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/25-thanksgiving-icons-line-52KFJ3Q"
+        },
+        {
+            "filename": "sport-cup-XL739U5.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/sport-cup-XL739U5.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/block-counters.json",
+                    "name": "Block: Counters"
+                }
+            ],
+            "filesize": 3575,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/30-sports-icons-line-XL739U5"
+        },
+        {
+            "filename": "graphic-design.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/graphic-design.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                }
+            ],
+            "filesize": 3626,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-design-line-icons-9GKTJP"
+        },
+        {
+            "filename": "web-design.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/web-design.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                }
+            ],
+            "filesize": 3920,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-design-line-icons-9GKTJP"
+        },
+        {
+            "filename": "UI-UX-Design.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/UI-UX-Design.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                }
+            ],
+            "filesize": 240,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-design-line-icons-9GKTJP"
+        },
+        {
+            "filename": "Art-painting.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/Art-painting.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2481,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-design-line-icons-9GKTJP"
+        },
+        {
+            "filename": "Sketch.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/Sketch.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2218,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-design-line-icons-9GKTJP"
+        },
+        {
+            "filename": "Animate.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/Animate.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1481,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-design-line-icons-9GKTJP"
+        },
+        {
+            "filename": "Copywriting.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/01\/Copywriting.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1436,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-design-line-icons-9GKTJP"
+        },
+        {
+            "filename": "Portfolio-09.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-09-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-portfolio-list.json",
+                    "name": "Block: Portfolio List"
+                }
+            ],
+            "filesize": 46638,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-D9MME3Q"
+        },
+        {
+            "filename": "Portfolio-08.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-08-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-grid.json",
+                    "name": "Portfolio  Grid"
+                },
+                {
+                    "source": "templates\/block-portfolio-list.json",
+                    "name": "Block: Portfolio List"
+                }
+            ],
+            "filesize": 34315,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/website-template-design-JBXYFU9"
+        },
+        {
+            "filename": "project-1.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/project-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/block-portfolio-gallery.json",
+                    "name": "Block: Portfolio Gallery"
+                }
+            ],
+            "filesize": 88115,
+            "dimensions": [
+                1170,
+                780
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/blussom-insurance-service-landing-page-template-RTXY4Z3"
+        },
+        {
+            "filename": "project-2.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/project-2-800x1026.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/block-portfolio-gallery.json",
+                    "name": "Block: Portfolio Gallery"
+                }
+            ],
+            "filesize": 158295,
+            "dimensions": [
+                1170,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/blussom-insurance-service-landing-page-template-RTXY4Z3"
+        },
+        {
+            "filename": "project-3.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/project-3-800x1026.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/block-portfolio-gallery.json",
+                    "name": "Block: Portfolio Gallery"
+                }
+            ],
+            "filesize": 87413,
+            "dimensions": [
+                1170,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/blussom-insurance-service-landing-page-template-RTXY4Z3"
+        },
+        {
+            "filename": "project-4.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/project-4-800x1026.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/block-portfolio-gallery.json",
+                    "name": "Block: Portfolio Gallery"
+                }
+            ],
+            "filesize": 109166,
+            "dimensions": [
+                1170,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/blussom-insurance-service-landing-page-template-RTXY4Z3"
+        },
+        {
+            "filename": "project-5.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/project-5-800x1026.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/block-portfolio-gallery.json",
+                    "name": "Block: Portfolio Gallery"
+                }
+            ],
+            "filesize": 102558,
+            "dimensions": [
+                1170,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/blussom-insurance-service-landing-page-template-RTXY4Z3"
+        },
+        {
+            "filename": "project-6.jpg",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/project-6-800x1026.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/block-portfolio-gallery.json",
+                    "name": "Block: Portfolio Gallery"
+                }
+            ],
+            "filesize": 169382,
+            "dimensions": [
+                1170,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/blussom-insurance-service-landing-page-template-RTXY4Z3"
+        },
+        {
+            "filename": "error-lamp.png",
+            "thumbnail_url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2020\/04\/error-lamp.png",
+            "templates": [
+                {
+                    "source": "templates\/error-page.json",
+                    "name": "Error Page"
+                }
+            ],
+            "filesize": 3170,
+            "dimensions": [
+                320,
+                322
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/home-lightning-icons-V4JXLYN"
+        }
+    ]
+}

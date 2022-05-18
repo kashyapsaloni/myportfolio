@@ -1,0 +1,108 @@
+{
+    "version": "0.4",
+    "title": "Block: Map",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-map",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "21d948ef",
+            "settings": {
+                "layout": "full_width",
+                "_title": "Map",
+                "eae_slider_delay": "5000",
+                "gradient_color_list": [
+                    {
+                        "eae_animated_gradient_color": "#00a6d8",
+                        "_id": "4d126f1"
+                    },
+                    {
+                        "eae_animated_gradient_color": "#b800c9",
+                        "_id": "78a5411"
+                    },
+                    {
+                        "eae_animated_gradient_color": "#e57600",
+                        "_id": "d3ab3dc"
+                    }
+                ]
+            },
+            "elements": [
+                {
+                    "id": "21c9960d",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "eae_slider_delay": "5000",
+                        "gradient_color_list": [
+                            {
+                                "eae_animated_gradient_color": "#00a6d8",
+                                "_id": "e806176"
+                            },
+                            {
+                                "eae_animated_gradient_color": "#b800c9",
+                                "_id": "7bf5cbb"
+                            },
+                            {
+                                "eae_animated_gradient_color": "#e57600",
+                                "_id": "baeba05"
+                            }
+                        ]
+                    },
+                    "elements": [
+                        {
+                            "id": "ec92c06",
+                            "settings": {
+                                "map_lat": "40.717556",
+                                "map_lng": "-73.962893",
+                                "zoom": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "height": {
+                                    "unit": "px",
+                                    "size": 650,
+                                    "sizes": []
+                                },
+                                "streetview_control": "yes",
+                                "custom_map_style": "[\n    {\n        \"stylers\": [\n            {\n                \"hue\": \"#ff1a00\"\n            },\n            {\n                \"invert_lightness\": true\n            },\n            {\n                \"saturation\": -100\n            },\n            {\n                \"lightness\": 33\n            },\n            {\n                \"gamma\": 0.5\n            }\n        ]\n    },\n    {\n        \"featureType\": \"water\",\n        \"elementType\": \"geometry\",\n        \"stylers\": [\n            {\n                \"color\": \"#2D333C\"\n            }\n        ]\n    }\n]",
+                                "infowindow_max_width": "250",
+                                "tabs": [
+                                    {
+                                        "pin_title": "",
+                                        "pin_notice": "Find Latitude & Longitude",
+                                        "pin_lat": "40.717556",
+                                        "pin_lng": "-73.962893",
+                                        "pin_content": "",
+                                        "_id": "29ec305",
+                                        "pin_icon": "white"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eb-google-map-extended",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

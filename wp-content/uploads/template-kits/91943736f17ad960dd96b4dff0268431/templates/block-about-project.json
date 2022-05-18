@@ -1,0 +1,100 @@
+{
+    "version": "0.4",
+    "title": "Block: About Project",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-about",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "708b2039",
+            "settings": {
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "_title": "About Project"
+            },
+            "elements": [
+                {
+                    "id": "3da4109c",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": 30.175000000000000710542735760100185871124267578125
+                    },
+                    "elements": [
+                        {
+                            "id": "4a3ff4cd",
+                            "settings": {
+                                "title": "<b>CLIENT:<\/b> James Donovan<br>\n<b>DATE:<\/b> 06 January 2021<br>\n<b>LOCATION:<\/b> New York, USA<br>\n<b>SITE:<\/b> example.com",
+                                "header_size": "p",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "30",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=c6d5909",
+                                    "typography_typography": "globals\/typography?id=c06f2a7"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "4e9c5a8d",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": 69.8250000000000028421709430404007434844970703125
+                    },
+                    "elements": [
+                        {
+                            "id": "162239ca",
+                            "settings": {
+                                "title": "Cursus in hac habitasse platea dictumst. Maecenas volutpat blandit aliquam etiam erat velit. Morbi tempus iaculis urna id volutpat lacus. Pellentesque diam volutpat commodo sed. Massa eget egestas purus viverra accumsan in nisl. Sed elementum tempus egestas. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper.",
+                                "header_size": "p",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "30",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "align_mobile": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=c06f2a7"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

@@ -1,0 +1,271 @@
+{
+    "version": "0.4",
+    "title": "Block: Gallery",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-gallery",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "16a6f0e6",
+            "settings": {
+                "structure": "30",
+                "_title": "Gallery",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "147ecae1",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "animation": "fadeIn",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "30",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "45",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "15",
+                            "bottom": "0",
+                            "left": "15",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "1cf1b7a2",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-01.jpg",
+                                    "id": 1192
+                                },
+                                "thumbnail_size": "medium_large",
+                                "title_text": "Lgitur neque stultorum",
+                                "description_text": "Brand Identity \/ Web Design",
+                                "image_size": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "hover_animation": "float",
+                                "text_align": "left",
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"5128a29\" name=\"lightbox\" settings=\"%7B%22type%22%3A%22image%22%2C%22image%22%3A%7B%22url%22%3A%22https%3A%2F%2Fpropus-elementor.nelly-k.com%2Fwp-content%2Fuploads%2F2021%2F02%2FPortfolio-01.jpg%22%2C%22id%22%3A1192%7D%7D\"]"
+                                },
+                                "title_bottom_space": {
+                                    "unit": "px",
+                                    "size": 5,
+                                    "sizes": []
+                                },
+                                "image_space": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "text_align_mobile": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=c6d5909",
+                                    "title_typography_typography": "globals\/typography?id=752da11",
+                                    "description_color": "globals\/colors?id=c6d5909",
+                                    "description_typography_typography": "globals\/typography?id=c06f2a7"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image-box",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "4368516f",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "animation": "fadeIn",
+                        "animation_delay": 300,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "15",
+                            "bottom": "0",
+                            "left": "15",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "45",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "15",
+                            "bottom": "0",
+                            "left": "15",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "72b35b52",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-06.jpg",
+                                    "id": 1193
+                                },
+                                "thumbnail_size": "medium_large",
+                                "title_text": "Beatus neque sapientium",
+                                "description_text": "Brand Identity \/ Print",
+                                "image_size": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "hover_animation": "float",
+                                "text_align": "left",
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"5128a29\" name=\"lightbox\" settings=\"%7B%22type%22%3A%22image%22%2C%22image%22%3A%7B%22url%22%3A%22https%3A%2F%2Fpropus-elementor.nelly-k.com%2Fwp-content%2Fuploads%2F2021%2F02%2FPortfolio-06.jpg%22%2C%22id%22%3A1193%7D%7D\"]"
+                                },
+                                "title_bottom_space": {
+                                    "unit": "px",
+                                    "size": 5,
+                                    "sizes": []
+                                },
+                                "image_space": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "text_align_mobile": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=c6d5909",
+                                    "title_typography_typography": "globals\/typography?id=752da11",
+                                    "description_color": "globals\/colors?id=c6d5909",
+                                    "description_typography_typography": "globals\/typography?id=c06f2a7"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image-box",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "1e4907a9",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "animation": "fadeIn",
+                        "animation_delay": 600,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "30",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "15",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "15",
+                            "bottom": "0",
+                            "left": "15",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2ff33ea4",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/propus-elementor.nelly-k.com\/wp-content\/uploads\/2021\/02\/Portfolio-04.jpg",
+                                    "id": 1200
+                                },
+                                "thumbnail_size": "medium_large",
+                                "title_text": "Contineo me ab exemplis",
+                                "description_text": "Web Design",
+                                "image_size": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "hover_animation": "float",
+                                "text_align": "left",
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"5128a29\" name=\"lightbox\" settings=\"%7B%22type%22%3A%22image%22%2C%22image%22%3A%7B%22url%22%3A%22https%3A%2F%2Fpropus-elementor.nelly-k.com%2Fwp-content%2Fuploads%2F2021%2F02%2FPortfolio-04.jpg%22%2C%22id%22%3A1200%7D%7D\"]"
+                                },
+                                "title_bottom_space": {
+                                    "unit": "px",
+                                    "size": 5,
+                                    "sizes": []
+                                },
+                                "image_space": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "text_align_mobile": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=c6d5909",
+                                    "title_typography_typography": "globals\/typography?id=752da11",
+                                    "description_color": "globals\/colors?id=c6d5909",
+                                    "description_typography_typography": "globals\/typography?id=c06f2a7"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image-box",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

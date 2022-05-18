@@ -1,0 +1,156 @@
+{
+    "version": "0.4",
+    "title": "Under Maintanence",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "11c65a42",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "50",
+                    "bottom": "0",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "15",
+                    "bottom": "0",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "height": "full",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/gajean.com\/rooma\/wp-content\/uploads\/sites\/8\/2022\/01\/it-consultant-replace-harddrive-in-datacenter-1.jpg",
+                    "id": 1008,
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_size": "cover",
+                "background_overlay_background": "gradient",
+                "background_overlay_color": "#000000",
+                "background_overlay_gradient_angle": {
+                    "unit": "deg",
+                    "size": 90,
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "15",
+                    "bottom": "100",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_overlay_color_b": "globals\/colors?id=93fadc4"
+                }
+            },
+            "elements": [
+                {
+                    "id": "a4df590",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "113b1a52",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-cog",
+                                    "library": "fa-solid"
+                                },
+                                "size": {
+                                    "unit": "px",
+                                    "size": 60,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "primary_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "5a4056b1",
+                            "settings": {
+                                "title": "We Are Is",
+                                "header_size": "h3",
+                                "align": "center",
+                                "title_color": "#FFFFFF"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "56b18306",
+                            "settings": {
+                                "before_text": "Under",
+                                "highlighted_text": "Maintanence",
+                                "rotating_text": "Better\nBigger\nFaster",
+                                "tag": "h1",
+                                "marker_color": "#02010100",
+                                "title_color": "#FFFFFF",
+                                "__globals__": {
+                                    "words_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "animated-headline",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3b2bbcea",
+                            "settings": {
+                                "custom_labels": "yes",
+                                "label_days": "Days",
+                                "label_hours": "Hors",
+                                "label_minutes": "Mins",
+                                "label_seconds": "Secs",
+                                "__globals__": {
+                                    "digits_typography_typography": "globals\/typography?id=db48b8b",
+                                    "label_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "countdown",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}
